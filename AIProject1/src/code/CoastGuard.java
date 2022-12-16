@@ -324,6 +324,10 @@ public class CoastGuard {
 //				result+=";";
 //			}
 		}
+		
+		if(visualize) {
+			System.out.println(gridGlobal.printCells(cg.i, cg.j));
+		}
 
 		return result;
 	}
